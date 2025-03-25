@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 export default function useSwitch(initialValue = false) {
   const [isOn, setisOn] = useState(initialValue);
 
